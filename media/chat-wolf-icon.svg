@@ -1,0 +1,50 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Balão de chat -->
+  <rect
+    x="6"
+    y="10"
+    width="52"
+    height="40"
+    rx="10"
+    ry="10"
+    fill="#0E639C"
+    stroke="#094D7A"
+    stroke-width="2"
+  />
+  <path
+    d="M18 50 L26 58 L34 50"
+    fill="#0E639C"
+    stroke="#094D7A"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+
+  <!-- Cabeça do lobo -->
+  <circle cx="32" cy="28" r="10" fill="#C4C4C4" />
+  
+  <!-- Orelhas -->
+  <polygon points="22,20 27,12 32,22" fill="#8B8B8B" />
+  <polygon points="42,20 37,12 32,22" fill="#8B8B8B" />
+  
+  <!-- Olhos -->
+  <circle cx="27" cy="28" r="2" fill="#0E639C" />
+  <circle cx="37" cy="28" r="2" fill="#0E639C" />
+  
+  <!-- Focinho -->
+  <ellipse cx="32" cy="34" rx="5" ry="3" fill="#8B8B8B" />
+  
+  <!-- Boca -->
+  <path
+    d="M27 38 Q32 44 37 38"
+    stroke="#094D7A"
+    stroke-width="2"
+    fill="none"
+    stroke-linecap="round"
+  />
+</svg>
