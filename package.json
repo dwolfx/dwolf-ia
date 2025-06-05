@@ -9,24 +9,21 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onView:deepseekChat"
-  ],
   "main": "./out/extension.js",
   "contributes": {
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "deepseekChat",
-          "title": "DeepSeek Chat",
+          "id": "deepseek",
+          "title": "DeepSeek",
           "icon": "media/chat-wolf-icon.svg"
         }
       ]
     },
     "views": {
-      "deepseekChat": [
+      "deepseek": [
         {
-          "id": "chatView",
+          "id": "deepseekChat",
           "name": "Chat",
           "icon": "media/chat-wolf-icon.svg"
         }
